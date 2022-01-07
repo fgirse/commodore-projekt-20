@@ -1,4 +1,4 @@
-import 'normalize.css/normalize.css';
+//import 'normalize.css/normalize.css';
 import '@/css/tailwind.css'
 import { ThemeProvider } from 'next-themes'
 import Head from 'next/head'

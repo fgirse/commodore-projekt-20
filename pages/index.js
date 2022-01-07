@@ -55,7 +55,7 @@ export default function Home() {
 
       </StyledHeroHome>
 
-      <section className="mx-auto mt-5 w-12/12 h-48  bg-gray-800 flex flex-wrap -mx-4 -mb-4 md:mb-0">
+      <section className="mx-auto mt-5 w-11/12 h-48 bg-gray-800 flex flex-wrap -mx-4 -mb-4 md:mb-0">
 
 
         <div className="px-10 z-10   md:w-1/3 px-4 mb-4 md:mb-0">
@@ -65,7 +65,7 @@ export default function Home() {
           <p className="text-2xl  text-gray-300">Sonntag: Ruhetag</p>
         </div>
 
-        <div className="bg-red-800 w-full rounded-2xl md:w-7/12 px-4 mb-4 md:mb-0 shadow-xl shadow-gray-500">
+        <div className="mx-auto bg-red-800 w-11/12 rounded-2xl md:w-7/12 px-4 mb-4 md:mb-0 shadow-xl shadow-gray-500">
 
           <div className='flex flex-row'>
             <div className="w-96 lg:w-8/12 lg:mt-7 lg:mt-2 xl:mb-3 ">
@@ -93,7 +93,7 @@ export default function Home() {
 
       <section className='mt-3 mx=auto w-11/12'>
         <ThemeProvider theme={theme}>
-          <div className="grid-cols-1 gap-0 justify-center aligne-center ml-32 mt-24 md:grid-cols-3 justify-center items-center gap-24" >
+          <div className="mx-auto grid grid-cols-1 gap-0 justify-center aligne-center ml-32 mt-24 md:grid md:grid-cols-3 justify-center items-center gap-24" >
 
             <Card
               mb={5}
@@ -160,19 +160,16 @@ export default function Home() {
         </ThemeProvider>
 
       </section>
-      <h1 className='mt-5 text-center text-5xl font-bold text-yellow-400 '>Impressionen Rettungsanker</h1>
-      <Heading1 className="hidden md:mt-36">Impressionen aus dem Rettungsanker</Heading1>
+      <h1 className='mt-5 text-center text-3xl font-bold text-yellow-400 md-hidden '>Impressionen Rettungsanker</h1>
+      <Heading1 className="hidden md:mt-36">Impressionen Rettungsanker</Heading1>
       <div className='w-2/12 absolute transform -translate-y-80'>
         <Image src="/Albers_Illu_white.png" top-5 alt="Impressionen" height="208 " width="195" layout="responsive" />
       </div>
 
 
-
-
-
       <section className='mt-5 mx=auto w-11/12'>
         <ThemeProvider theme={theme}>
-          <div className="mx-center grid grid-cols-1 gap-1  justify-center items-start mx-auto ml-16 md:grid grid-cols-3 justify-between items-start grid-4" >
+          <div className="px-12 mx-center grid-cols-1 justify-center items-center md:ml-16 md:grid md:grid-cols-3 md:gap-20 md:justify-between md:items-start " >
 
             <Card
               mb={5}
@@ -186,11 +183,11 @@ export default function Home() {
                 boxShadow: "10px 5px 10px rgba(244, 216, 154, 0.9)",
               }} onGotPointerCapture={2}
             >
-            <div className='w-50 border-8 border-gray-100'>
+            <div className=' border-8 border-gray-100'>
                 <Image src="/Impress01.jpg" alt="Impressionen" height="168 " width="300" layout="responsive" />
               </div>
               <Text>
-              <p className="mt-10 text-xl md:3text-3xl md:text-4xl text-center text">Impressionen</p>
+              <p className="mt-10 text-2xl md:text-4xl text-center font-bold">Impressionen</p>
               </Text>
             </Card>
 
@@ -210,7 +207,7 @@ export default function Home() {
                 <Image src="/Impress02.jpg" alt="Impressionen" height="168 " width="300" layout="responsive" />
               </div>
               <Text>
-              <p className="mt-10 text-3xl md:text-4xl text-center text">Impressionen</p>
+              <p className="mt-10 text-2xl md:text-4xl text-center font-bold">Impressionen</p>
               </Text>
             </Card>
             <Card
@@ -228,7 +225,7 @@ export default function Home() {
                 <Image src="/Impress03.jpg" alt="Impressionen" height="168 " width="300" layout="responsive" />
               </div>
               <Text>
-                <p className="mt-10 text-3xl md:text-4xl text-center text">Impressionen</p>
+              <p className="mt-10 text-2xl md:text-4xl text-center font-bold">Impressionen</p>
               </Text>
             </Card>
           </div>

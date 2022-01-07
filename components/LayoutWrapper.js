@@ -12,7 +12,7 @@ import Image from "next/image"
 const LayoutWrapper = ({ children }) => {
   return (
     <SectionContainer>
-      <div className="flex flex-col justify-between minh-screen bg-gray-800">
+      <div className="w-screen mx-auto flex flex-col justify-between minh-screen bg-green-800">
         <header className="flex items-center justify-between py-8">
           <div>
             <Link href="/" aria-label="Tailwind CSS Blog">
