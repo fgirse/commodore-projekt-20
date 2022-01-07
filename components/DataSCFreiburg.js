@@ -32,9 +32,9 @@ const DataSCFreiburg = () => {
         setTabelleBL(response.data.standings[0].table)
         console.log(response.data.standings[0].table)
 
-        let SCF = [0].team.filter ( => (team.name == "SC Freibug");
-
-console.log(developers)
+        let SCF =  [0].team.filter ( data => (team.name == "SC Freibug"));
+                
+console.log(SCF)
     
        
     
@@ -53,7 +53,6 @@ console.log(developers)
             </div>
         </>
     )
+}   
 }
-    
-
-export default DataSCFreiburg
+export default DataSCFreiburg     
