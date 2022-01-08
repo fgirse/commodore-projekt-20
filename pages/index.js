@@ -52,7 +52,7 @@ export default function Home() {
       <section className="ml-3 mt-5 w-11/12 h-48 bg-gray-800 flex flex-wrap -mx-4 -mb-4 md:mb-0">
 
 
-<div className="px-12 h-full md:px-10 z-10 md:w-1/3 px-4 mb-4 md:mb-0">
+<div className="px-10 h-full md:px-8 z-10 md:w-1/3 px-4 mb-4 md:mb-0">
   <p className="text-2xl p-3 md:text-4xl font-bold uppercase text-yellow-500">öffnungszeiten</p>
   <p className="text-center mt-2 text-xs md:text-2xl  text-gray-300">Montag bis Donnerstag: 18 bis 24 Uhr</p>
   <p className="text-center text-xs md:text-2xl  text-gray-300">Freitag und Samstag: 15 bis 03 Uhr</p>
@@ -60,32 +60,25 @@ export default function Home() {
 </div>
 
 
-<a href="#" class="flex flex-col items-center bg-red-800 rounded-lg border shadow-md md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+<div href="#" class="flex flex-col items-center bg-red-800 rounded-lg border shadow-md md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
 <img class="-mt-60 px-2 object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="/portrait-mick1.png" alt=""></img>
 <div class="flex flex-col justify-between p-5                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        leading-normal">
 <h5 class="mb-2 text-3xl font-bold tracking-tight text-yellow-400 dark:text-white">"Moin - Moin"</h5>
 <p class="mb-3 font-normal text-gray-100 dark:text-gray-400">In Hommage an eine typische Kiez-Kneipe auf St.Pauli, haben wir im Herzen von Freiburg ein Lokal eröffnet, welches es so südlich der Elbe wohl kein zweites Mal gibt. Ausgebaut im Stile eines Schiffrumpfes, ist der im Herzen der Altstadt gelegene Rettungsanker-Freiburg idealer Treffpunkt um nach Feierabend nette und interessante Menschen kennenzulernen. Wir sind stolz auf unser buntes, internationales Publikum. Unser Rettungsanker ist auch ideale Location zur Durchführung Ihres privaten oder geschäftlichen Events. Sprechen Sie uns an oder kontaktieren Sie uns vor Ort oder schreiben Sie uns eine email. Wir freuen uns Sie im Rettungsanker begrüsssen zu dürfen <br /><br />Michael Schreck und das Team des Rettungsanker.</p>
 </div>
-</a>
-
-<div  className="w-96 flex flex-col items-center bg-red-800 rounded-lg border shadow-md md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-
-
-<div className="flex flex-col justify-between p-4 leading-normal">
-<h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-100 dark:text-white">"MOIN MOIN"</h5>
-<p className="mb-3 mx-auto bg-red-800 font-normal text-gray-100 dark:text-gray-400 shadow-xl shadow-gray-500">In Hommage an eine typische Kiez-Kneipe auf St.Pauli, haben wir im Herzen von Freiburg ein Lokal eröffnet, welches es so südlich der Elbe wohl kein zweites Mal gibt. Ausgebaut im Stile eines Schiffrumpfes, ist der im Herzen der Altstadt gelegene Rettungsanker-Freiburg idealer Treffpunkt um nach Feierabend nette und interessante Menschen kennenzulernen. Wir sind stolz auf unser buntes, internationales Publikum. Unser Rettungsanker ist auch ideale Location zur Durchführung Ihres privaten oder geschäftlichen Events. Sprechen Sie uns an oder kontaktieren Sie uns vor Ort oder schreiben Sie uns eine email. Wir freuen uns Sie im Rettungsanker begrüsssen zu dürfen <br /><br />Michael Schreck und das Team des Rettungsanker</p>
 </div>
-</div>
+
+
 </section>
 
-      <div className='right-4 transform -translate-y-20 absolute md:right-20 z-10 w-3/12 float-right md:transform md:-translate-y-32' >
+      <div className='right-4 transform -translate-y-20 absolute md:right-16 z-10 w-4/12 float-right md:transform md:-translate-y-' >
         <Image className='absolute' src="/Astraballons.png" alt="portrait" layout="responsive" height={473} width={473} />
       </div>
-      <Heading1 className=''>Die Kneipe</Heading1>
+      <Heading1 className='md:mt-96'>Die Kneipe</Heading1>
       <div className='w-2/12 left-32 transform -translate-y-20 absolute md:left-80 z-20 md:transform md:-translate-y-0' >
         <Image src="/rettungsring.png" alt="illustration" layout="responsive" height={473} width={473} />
       </div>
-      <div className='left-5 transform -translate-y-24 absolute w-3/12 z-4 transform md:-translate-y-72' >
+      <div className=' transform -translate-y-24 absolute w-5/12 z-4 transform md:-translate-y-3/4' >
         <Image src="/lighthousebw.svg" alt="illustrtion" layout="responsive" height={473} width={473} />
       </div>
 
@@ -106,7 +99,7 @@ export default function Home() {
               }} onGotPointerCapture={2}
             >
               <div className='border- border-gray-100'>
-                <Ganter height="24vh" width="20vw"></Ganter>
+                <Ganter height="24vh" width="20vw" objectfi="contain"></Ganter>
               </div>
               <Text>
                 <p className="mt-10 text-4xl text-center text-sans font-bold uppercase">Ganter </p>
@@ -158,16 +151,17 @@ export default function Home() {
         </ThemeProvider>
 
       </section>
-      <h1 className='mt-5 text-center text-3xl font-bold text-yellow-400 md-hidden '>Impressionen Rettungsanker</h1>
-      <Heading1 className="hidden md:mt-36">Impressionen Rettungsanker</Heading1>
-      <div className='w-2/12 absolute transform -translate-y-80'>
+      <h1 className='mt-5 text-center text-3xl font-bold text-yellow-400 md:hidden 
+      '>Impressionen Rettungsanker</h1>
+      <Heading1 className="hidden md:block">Impressionen Rettungsanker</Heading1>
+      <div className='w-2/12 absolute transform -translate-y-10'>
         <Image src="/Albers_Illu_white.png" top-5 alt="Impressionen" height="208 " width="195" layout="responsive" />
       </div>
 
 
-      <section className='mt-5 mx=auto w-11/12'>
+      <section className='m mx=auto w-11/12'>
         <ThemeProvider theme={theme}>
-          <div className="px-12 mx-center grid-cols-1 justify-center items-center md:ml-16 md:grid md:grid-cols-3 md:gap-20 md:justify-between md:items-start " >
+          <div className="mt-12 px-1 mx-center grid-cols-1 justify-center items-center md:ml-16 md:grid md:grid-cols-3 md:gap-20 md:justify-between md:items-start " >
 
             <Card
               mb={5}
@@ -185,7 +179,7 @@ export default function Home() {
                 <Image src="/Impress01.jpg" alt="Impressionen" height="168 " width="300" layout="responsive" />
               </div>
               <Text>
-              <p className="mt-10 text-2xl md:text-4xl text-center font-bold">Impressionen</p>
+              <p className="mt-20 text-2xl md:text-4xl text-center font-bold">Impressionen</p>
               </Text>
             </Card>
 
@@ -271,7 +265,7 @@ export default function Home() {
 
 
         </div>
-              <Modal2></Modal2>
+            
 
       </section>
       
