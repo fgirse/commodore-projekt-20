@@ -8,7 +8,7 @@ import { Heading3 } from '../components/Headings/Heading3.styles';
 import { Heading1 } from '@/components/Headings/Heading1.styles';
 import Image from 'next/image';
 import sketchy from "theme-ui-sketchy-preset";
-
+import Modal2 from '../components/Modal2'
 import {
   jsx,
   Flex,
@@ -31,9 +31,6 @@ import {
 } from "theme-ui";
 
 
-
-
-
 const theme = {
   ...sketchy,
   colors: {
@@ -50,48 +47,49 @@ export default function Home() {
        <Heading3>Dein Treffpunkt<br/>in Freiburg !!!</Heading3>
 
       <StyledHeroHome>
-         
-        
-
+     
       </StyledHeroHome>
+      <section className="ml-3 mt-5 w-11/12 h-48 bg-gray-800 flex flex-wrap -mx-4 -mb-4 md:mb-0">
 
-      <section className="mx-auto mt-5 w-11/12 h-48 bg-gray-800 flex flex-wrap -mx-4 -mb-4 md:mb-0">
+
+<div className="px-12 h-full md:px-10 z-10 md:w-1/3 px-4 mb-4 md:mb-0">
+  <p className="text-2xl p-3 md:text-4xl font-bold uppercase text-yellow-500">öffnungszeiten</p>
+  <p className="text-center mt-2 text-xs md:text-2xl  text-gray-300">Montag bis Donnerstag: 18 bis 24 Uhr</p>
+  <p className="text-center text-xs md:text-2xl  text-gray-300">Freitag und Samstag: 15 bis 03 Uhr</p>
+  <p className="text-center text-xs md:text-2xl  text-gray-300">Sonntag: Ruhetag</p>
+</div>
 
 
-        <div className="px-10 z-10   md:w-1/3 px-4 mb-4 md:mb-0">
-          <p className="text-4xl font-bold uppercase text-yellow-500">öffnungszeiten</p>
-          <p className="mt-2 text-2xl  text-gray-300">Montag bis Donnerstag: 18 bis 24 Uhr</p>
-          <p className="text-2xl  text-gray-300">Freitag und Samstag: 15 bis 03 Uhr</p>
-          <p className="text-2xl  text-gray-300">Sonntag: Ruhetag</p>
-        </div>
+<a href="#" class="flex flex-col items-center bg-red-800 rounded-lg border shadow-md md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+<img class="-mt-60 px-2 object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="/portrait-mick1.png" alt=""></img>
+<div class="flex flex-col justify-between p-5                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        leading-normal">
+<h5 class="mb-2 text-3xl font-bold tracking-tight text-yellow-400 dark:text-white">"Moin - Moin"</h5>
+<p class="mb-3 font-normal text-gray-100 dark:text-gray-400">In Hommage an eine typische Kiez-Kneipe auf St.Pauli, haben wir im Herzen von Freiburg ein Lokal eröffnet, welches es so südlich der Elbe wohl kein zweites Mal gibt. Ausgebaut im Stile eines Schiffrumpfes, ist der im Herzen der Altstadt gelegene Rettungsanker-Freiburg idealer Treffpunkt um nach Feierabend nette und interessante Menschen kennenzulernen. Wir sind stolz auf unser buntes, internationales Publikum. Unser Rettungsanker ist auch ideale Location zur Durchführung Ihres privaten oder geschäftlichen Events. Sprechen Sie uns an oder kontaktieren Sie uns vor Ort oder schreiben Sie uns eine email. Wir freuen uns Sie im Rettungsanker begrüsssen zu dürfen <br /><br />Michael Schreck und das Team des Rettungsanker.</p>
+</div>
+</a>
 
-        <div className="mx-auto bg-red-800 w-11/12 rounded-2xl md:w-7/12 px-4 mb-4 md:mb-0 shadow-xl shadow-gray-500">
+<div  className="w-96 flex flex-col items-center bg-red-800 rounded-lg border shadow-md md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
 
-          <div className='flex flex-row'>
-            <div className="w-96 lg:w-8/12 lg:mt-7 lg:mt-2 xl:mb-3 ">
-              <Image src="/portrait-mick1.png" alt="portrait" layout="responsive" height={250} width={185} />
-            </div>
-            <div className='z-20 flex flex-col items-start justify-center'>
-              <p className="md:md:text-3xl p-2 text-yellow-500 upprercase">'Moin Moin</p>
-              <p className="text-gray-100 text-justify px-4 lg:text-xs">In Hommage an eine typische Kiez-Kneipe auf St.Pauli, haben wir im Herzen von Freiburg ein Lokal eröffnet, welches es so südlich der Elbe wohl kein zweites Mal gibt. Ausgebaut im Stile eines Schiffrumpfes, ist der im Herzen der Altstadt gelegene Rettungsanker-Freiburg idealer Treffpunkt um nach Feierabend nette und interessante Menschen kennenzulernen. Wir sind stolz auf unser buntes, internationales Publikum. Unser Rettungsanker ist auch ideale Location zur Durchführung Ihres privaten oder geschäftlichen Events. Sprechen Sie uns an oder kontaktieren Sie uns vor Ort oder schreiben Sie uns eine email. Wir freuen uns Sie im Rettungsanker begrüsssen zu dürfen <br /><br />Michael Schreck und das Team des Rettungsanker </p>
-            </div>
-          </div>
 
-        </div>
+<div className="flex flex-col justify-between p-4 leading-normal">
+<h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-100 dark:text-white">"MOIN MOIN"</h5>
+<p className="mb-3 mx-auto bg-red-800 font-normal text-gray-100 dark:text-gray-400 shadow-xl shadow-gray-500">In Hommage an eine typische Kiez-Kneipe auf St.Pauli, haben wir im Herzen von Freiburg ein Lokal eröffnet, welches es so südlich der Elbe wohl kein zweites Mal gibt. Ausgebaut im Stile eines Schiffrumpfes, ist der im Herzen der Altstadt gelegene Rettungsanker-Freiburg idealer Treffpunkt um nach Feierabend nette und interessante Menschen kennenzulernen. Wir sind stolz auf unser buntes, internationales Publikum. Unser Rettungsanker ist auch ideale Location zur Durchführung Ihres privaten oder geschäftlichen Events. Sprechen Sie uns an oder kontaktieren Sie uns vor Ort oder schreiben Sie uns eine email. Wir freuen uns Sie im Rettungsanker begrüsssen zu dürfen <br /><br />Michael Schreck und das Team des Rettungsanker</p>
+</div>
+</div>
+</section>
 
-      </section>
-      <div className='absolute right-20 z-10 w-3/12 float-right transform -translate-y-32' >
+      <div className='right-4 transform -translate-y-20 absolute md:right-20 z-10 w-3/12 float-right md:transform md:-translate-y-32' >
         <Image className='absolute' src="/Astraballons.png" alt="portrait" layout="responsive" height={473} width={473} />
       </div>
       <Heading1 className=''>Die Kneipe</Heading1>
-      <div className='w-2/12 absolute left-80 z-20 -transform -translate-y-0' >
-        <Image src="/rettungsring.png" alt="portrait" layout="responsive" height={473} width={473} />
+      <div className='w-2/12 left-32 transform -translate-y-20 absolute md:left-80 z-20 md:transform md:-translate-y-0' >
+        <Image src="/rettungsring.png" alt="illustration" layout="responsive" height={473} width={473} />
       </div>
-      <div className='absolute w-3/12 z-4 transform -translate-y-72' >
-        <Image src="/lighthousebw.svg" alt="portrait" layout="responsive" height={473} width={473} />
+      <div className='left-5 transform -translate-y-24 absolute w-3/12 z-4 transform md:-translate-y-72' >
+        <Image src="/lighthousebw.svg" alt="illustrtion" layout="responsive" height={473} width={473} />
       </div>
 
-      <section className='mt-3 mx=auto w-11/12'>
+      <section className='mt-96 md:mt-60 mx=auto w-11/12'>
         <ThemeProvider theme={theme}>
           <div className="mx-auto grid grid-cols-1 gap-0 justify-center aligne-center ml-32 mt-24 md:grid md:grid-cols-3 justify-center items-center gap-24" >
 
@@ -273,7 +271,7 @@ export default function Home() {
 
 
         </div>
-
+              <Modal2></Modal2>
 
       </section>
       
