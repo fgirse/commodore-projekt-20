@@ -12,14 +12,14 @@ import Image from "next/image"
 const LayoutWrapper = ({ children }) => {
   return (
     <SectionContainer>
-      <div className="w-screen mx-auto flex flex-col justify-between minh-screen bg-gray-800">
-        <header className="flex items-center justify-between py-8">
+      <div className="md:w-screen mx-auto md:flex md:flex-col md:justify-between minh-screen bg-gray-800">
+        <header className="md:grid md:grid-cols-4 md:grid-rows-2 md:justify-end md:items-centerlg:flex lg:items-center lg:justify-end lg:py-8">
           <div>
             <Link href="/" aria-label="Tailwind CSS Blog">
               <div className="flex items-center justify-between">
-                <div className="mr-3 flex flex-row justify around gap-10 items-center">
+                <div className="md:w-36 mr-3 lg:flex md:flex-row md:justify-around md:gap-10 md:items-center">
                   <LogoNeu />
-                  <div className='w-8'>
+                  <div className='hidden md:w-36'>
                   <Image src="/phone-Illustration.png" layout="responsive" height="489" width="524" alt="Illustration"/>  
                   </div>
                   

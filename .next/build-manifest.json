@@ -35,10 +35,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/geschichte": [
+    "/sportarena": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/geschichte.js"
+      "static/chunks/pages/sportarena.js"
     ]
   },
   "ampFirstPages": []

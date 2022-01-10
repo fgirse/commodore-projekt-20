@@ -2,6 +2,6 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/geschichte": "pages/geschichte.js",
+  "/sportarena": "pages/sportarena.js",
   "/404": "pages/404.js"
 }

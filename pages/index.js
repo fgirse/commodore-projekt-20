@@ -8,7 +8,7 @@ import { Heading3 } from '../components/Headings/Heading3.styles';
 import { Heading1 } from '@/components/Headings/Heading1.styles';
 import Image from 'next/image';
 import sketchy from "theme-ui-sketchy-preset";
-import Modal2 from '../components/Modal2'
+
 import {
   jsx,
   Flex,
@@ -49,19 +49,23 @@ export default function Home() {
       <StyledHeroHome>
      
       </StyledHeroHome>
-      <section className="ml-3 mt-5 w-11/12 h-48 bg-gray-800 flex flex-wrap -mx-4 -mb-4 md:mb-0">
+      <section className="mt-10 mx-center w-full md:h-48 bg-gray-800">
+
+              <div className="flex-column items-center justify-center text-center md:px-10 md:h-full md:px-8 z-10 md:w-1/3 px-4 mb-4 md:mb-0">
+                <p className="text-4xl text-center md:p-3 md:text-4xl font-bold uppercase text-yellow-500">öffnungszeiten</p>
+                <p className="text-center mt-2 text-1xl md:text-2xl  text-gray-300">Montag bis Donnerstag: 18 bis 24 Uhr</p>
+                <p className="text-center text-xl md:text-2xl  text-gray-300">Freitag und Samstag: 15 bis 03 Uhr</p>
+                <p className="text-center text-xl md:text-2xl  text-gray-300">Sonntag: Ruhetag</p>
+              </div>
 
 
-<div className="px-10 h-full md:px-8 z-10 md:w-1/3 px-4 mb-4 md:mb-0">
-  <p className="text-2xl p-3 md:text-4xl font-bold uppercase text-yellow-500">öffnungszeiten</p>
-  <p className="text-center mt-2 text-xs md:text-2xl  text-gray-300">Montag bis Donnerstag: 18 bis 24 Uhr</p>
-  <p className="text-center text-xs md:text-2xl  text-gray-300">Freitag und Samstag: 15 bis 03 Uhr</p>
-  <p className="text-center text-xs md:text-2xl  text-gray-300">Sonntag: Ruhetag</p>
+<div class="shadow-3xl h-FUK shadow-gray-400 bg-red-800 rounded-lg border shadow-md md:flex-row md:max-w-xl dark:border-gray-700">
+<div className='w-36 mt-10 float-left'>
+
+<Image src="/portrait-mick1.png" class=" px-2 float-right object-cover w-11/12 h-96 rounded-t-lg md:h-auto md:w-24 md:rounded-none md:rounded-l-lg" width={1200} height={1400} layoutalt="responsible"></Image>
+  
 </div>
 
-
-<div href="#" class="flex flex-col items-center bg-red-800 rounded-lg border shadow-md md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-<img class="-mt-60 px-2 object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="/portrait-mick1.png" alt=""></img>
 <div class="flex flex-col justify-between p-5                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        leading-normal">
 <h5 class="mb-2 text-3xl font-bold tracking-tight text-yellow-400 dark:text-white">"Moin - Moin"</h5>
 <p class="mb-3 font-normal text-gray-100 dark:text-gray-400">In Hommage an eine typische Kiez-Kneipe auf St.Pauli, haben wir im Herzen von Freiburg ein Lokal eröffnet, welches es so südlich der Elbe wohl kein zweites Mal gibt. Ausgebaut im Stile eines Schiffrumpfes, ist der im Herzen der Altstadt gelegene Rettungsanker-Freiburg idealer Treffpunkt um nach Feierabend nette und interessante Menschen kennenzulernen. Wir sind stolz auf unser buntes, internationales Publikum. Unser Rettungsanker ist auch ideale Location zur Durchführung Ihres privaten oder geschäftlichen Events. Sprechen Sie uns an oder kontaktieren Sie uns vor Ort oder schreiben Sie uns eine email. Wir freuen uns Sie im Rettungsanker begrüsssen zu dürfen <br /><br />Michael Schreck und das Team des Rettungsanker.</p>
