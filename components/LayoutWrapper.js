@@ -13,19 +13,19 @@ const LayoutWrapper = ({ children }) => {
   return (
     <SectionContainer>
       <div className="md:w-screen mx-auto md:flex md:flex-col md:justify-between minh-screen bg-gray-800">
-        <header className="md:grid md:grid-cols-4 md:grid-rows-2 md:justify-end md:items-centerlg:flex lg:items-center lg:justify-end lg:py-8">
+        <header className="md:grid md:grid-cols-4 md:grid-rows-2 md:justify-end md:items-center lg:flex lg:items-center lg:justify-end lg:py-8">
           <div>
             <Link href="/" aria-label="Tailwind CSS Blog">
               <div className="flex items-center justify-between">
-                <div className="md:w-36 mr-3 lg:flex md:flex-row md:justify-around md:gap-10 md:items-center">
+                <div className="w-36 md:w-24 mr-3 lg:flex md:flex-row md:justify-around md:gap-10 md:items-center">
                   <LogoNeu />
-                  <div className='hidden md:w-36'>
+                  <div className='hidden xl:w-36'>
                   <Image src="/phone-Illustration.png" layout="responsive" height="489" width="524" alt="Illustration"/>  
                   </div>
                   
                 </div>
                 {typeof siteMetadata.headerTitle === 'string' ? (
-                  <div className="hidden h-6 text-sm font-mono text-gray-300 font-semibold sm:block md:text-lg">
+                  <div className="hidden lg:h-6 lg:text-sm lg:font-mono lg:text-gray-300 lg:font-semibold">
                     {siteMetadata.headerTitle}
                   </div>
                 ) : (
@@ -34,7 +34,7 @@ const LayoutWrapper = ({ children }) => {
               </div>
             </Link>
           </div>
-          <div className="flex items-center text-base leading-5">
+          <div className="flex items-end text-base leading-5">
             <div className="hidden sm:block">
               {headerNavLinks.map((link) => (
                 <Link
