@@ -9,43 +9,44 @@ import { device } from "./device";
     height: 266vh;
     width: 100vw;
     background-color: green;
-    background-image: url('/matroseimseil.png'), url('/lighthousebw.svg'), url('/illumaritim-2.png');
-    background-repeat: background-position: 8vw 3vh, 22vw  0vh, 0vh 0vw;           
-
+    background-image: url('/matroseimseil.png'), url('/lighthousebw.svg'), url('/LogoAlt.png'), url('/illumaritim-2.png');
+    background-repeat: no-repeat, no-repeat, no-repeat ,no-repeat;
+    background-size: 8vw 28vh, 20vw 95vh, 10vw 3vh, 100vw 266vh;
+    background-position: 71vw 2vh, 0vw 0vh, 30vw 3vh, 0vh 0vw;  
     
     
     
     @media ${device.mobileM} {
-    position: relative;
-    height: 266vh;
+      position: relative;
+    height: 333vh;
     width: 100vw;
     background-color: green;
-    background-image: url('/matroseimseil.png'), url('/lighthousebw.svg'), url('/illumaritim-2.png');
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    background-size: 8vw 4vh, 15vw 80vh, 100vw 266vh;
-    background-position: 48vw 3vh, 22vw  0vh, 0vh 0vw;           
+    background-image: url('/matroseimseil.png'), url('/lighthousebw.svg'), url('/LogoAlt.png'), url('/illumaritim-2.png');
+    background-repeat: no-repeat, no-repeat, no-repeat ,no-repeat;
+    background-size: 15vw 23vh, 20vw 95vh, 79vw 9vh, 100vw 333vh;
+    background-position: 76vw 2vh, 0vw 0vh, 11vw 3vh, 0vh 0vw;            
   }
 
     @media ${device.mobileL} {
     position: relative;
-    height: 366vh;
+    height: 333vh;
     width: 100vw;
     background-color: green;
-    background-image: url('/matroseimseil.png'), url('/lighthousebw.svg'), url('/illumaritim-2.png');
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    background-size: 8vw 14vh, 30vw 80vh, 100vw 366vh;
-    background-position: 75vw 0vh, 1vw  0vh, 0vh 0vw;           
+    background-image: url('/matroseimseil.png'), url('/lighthousebw.svg'), url('/LogoAlt.png'), url('/illumaritim-2.png');
+    background-repeat: no-repeat, no-repeat, no-repeat ,no-repeat;
+    background-size: 8vw 28vh, 20vw 95vh, 4vw 14vh, 100vw 333vh;
+    background-position: 71vw 2vh, 0vw 0vh, 30vw 3vh, 0vh 0vw;             
   }
     
     @media ${device.tablet} {
-    position: relative;
+      position: relative;
     height: 266vh;
     width: 100vw;
     background-color: green;
-    background-image: url('/matroseimseil.png'), url('/lighthousebw.svg'), url('/illumaritim-2.png');
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    background-size: 8vw 4vh, 15vw 80vh, 100vw 266vh;
-    background-position: 48vw 3vh, 22vw  0vh, 0vh 0vw;           
+    background-image: url('/matroseimseil.png'), url('/lighthousebw.svg'), url('/LogoAlt.png'), url('/illumaritim-2.png');
+    background-repeat: no-repeat, no-repeat, no-repeat ,no-repeat;
+    background-size: 8vw 28vh, 20vw 95vh, 60vw 12vh, 100vw 266vh;
+    background-position: 71vw 2vh, 0vw 0vh, 30vw 3vh, 0vh 0vw;            
   }
 
   
@@ -54,10 +55,10 @@ import { device } from "./device";
     height: 266vh;
     width: 100vw;
     background-color: green;
-    background-image: url('/matroseimseil.png'), url('/lighthousebw.svg'), url('/illumaritim-2.png');
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    background-size: 8vw 4vh, 15vw 80vh, 100vw 266vh;
-    background-position: 48vw 3vh, 22vw  0vh, 0vh 0vw;           
+    background-image: url('/matroseimseil.png'), url('/lighthousebw.svg'), url('/LogoAlt.png'), url('/illumaritim-2.png');
+    background-repeat: no-repeat, no-repeat, no-repeat ,no-repeat;
+    background-size: 8vw 28vh, 20vw 95vh, 40vw 14vh, 100vw 266vh;
+    background-position: 71vw 2vh, 0vw 0vh, 30vw 3vh, 0vh 0vw;            
   }
 
   @media ${device.laptopL} {
@@ -65,10 +66,10 @@ import { device } from "./device";
     height: 266vh;
     width: 100vw;
     background-color: green;
-    background-image: url('/matroseimseil.png'), url('/lighthousebw.svg'), url('/illumaritim-2.png');
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    background-size: 8vw 4vh, 15vw 80vh, 100vw 266vh;
-    background-position: 48vw 3vh, 22vw  0vh, 0vh 0vw;           
+    background-image: url('/matroseimseil.png'), url('/lighthousebw.svg'), url('/LogoAlt.png'), url('/illumaritim-2.png');
+    background-repeat: no-repeat, no-repeat, no-repeat ,no-repeat;
+    background-size: 8vw 28vh, 20vw 95vh, 40vw 14vh, 100vw 266vh;
+    background-position: 71vw 2vh, 0vw 0vh, 30vw 3vh, 0vh 0vw;           
   }
   
   @media ${device.desktop} {
@@ -76,11 +77,10 @@ import { device } from "./device";
     height: 266vh;
     width: 100vw;
     background-color: green;
-    background-image: url('/matroseimseil.png'), url('/lighthousebw.svg'), url('/illumaritim-2.png');
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    background-size: 8vw 4vh, 15vw 80vh, 100vw 266vh;
-    background-position: 48vw 3vh, 22vw  0vh, 0vh 0vw;           
-  }
+    background-image: url('/matroseimseil.png'), url('/lighthousebw.svg'), url('/LogoAlt.png'), url('/illumaritim-2.png');
+    background-repeat: no-repeat, no-repeat, no-repeat ,no-repeat;
+    background-size: 8vw 28vh, 20vw 95vh, 40vw 14vh, 100vw 266vh;
+    background-position: 71vw 2vh, 0vw 0vh, 30vw 3vh, 0vh 0vw;
 
 `
 

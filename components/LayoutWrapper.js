@@ -17,7 +17,7 @@ const LayoutWrapper = ({ children }) => {
           <div>
             <Link href="/" aria-label="Tailwind CSS Blog">
               <div className="flex items-center justify-between">
-                <div className="w-36 md:w-24 mr-3 lg:flex md:flex-row md:justify-around md:gap-10 md:items-center">
+                <div className="w-36 md:py-4md:w-24 mr-3 lg:flex md:flex-row md:justify-around md:gap-10 md:items-center">
                   <LogoNeu />
                   <div className='hidden xl:w-36'>
                   <Image src="/phone-Illustration.png" layout="responsive" height="489" width="524" alt="Illustration"/>  
