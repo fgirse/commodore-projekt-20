@@ -18,13 +18,8 @@ const team = () => {
 
       
         <section className="mx-auto w-11/12 py-12 px-6 text-center md:py-4 md:px-4">
-        
-        
-
-
-    
-
-        <div className='md:w-5/12 mx-auto'>
+ 
+        <div className='md:w-11/12 mx-auto'>
            <Heading2>DAS TEAM</Heading2>
         </div>
       <div className="mt-4 flex flex-wrap -mx-8">

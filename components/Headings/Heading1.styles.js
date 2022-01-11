@@ -4,7 +4,7 @@ import styled from'styled-components';
 import { device } from "../../components/device";
 
 const Heading1 = styled.h1`
-  font-family: 'Bowlby One SC', cursive;
+  font-family: 'Architekt Daughters', cursive;
   color: orange;
   text-align: center;
   padding: 1rem 1rem;
@@ -36,7 +36,7 @@ const Heading1 = styled.h1`
     font-size: 4rem;
   }
   @media ${device.laptopL} {
-    font-size: 6rem;
+    font-size: 10rem;
   }
   @media ${device.desktop} {
     font-size: 6rem;

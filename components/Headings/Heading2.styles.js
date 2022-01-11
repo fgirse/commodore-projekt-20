@@ -3,7 +3,7 @@ import styled from'styled-components';
 import { device } from "../device";
 
 const Heading2 = styled.h2`
-  font-family: 'Bowlby One SC', cursive;
+  font-family: 'Architect Daughters', cursive;
   color: #ffffff;
   text-align: center;
   padding: 1rem 2rem;
