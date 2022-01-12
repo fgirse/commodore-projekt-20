@@ -45,13 +45,17 @@ export default function Home() {
   return (
     <div className="relative">
     <div className='w-11/12 absolute top-0 left-24'>
-    <Heading3 background-color="red">Dein Treffpunkt<br/>in Freiburg !!!</Heading3>
+    <Heading3 className='z-40' background-color="red">Dein Treffpunkt<br/>in Freiburg !!!</Heading3>
     </div>
-       
 
-      <StyledHeroHome>
-     
-      </StyledHeroHome>
+    <StyledHeroHome></StyledHeroHome>
+       
+      {/*<div className='mx-auto w-full h-96'>
+      <Image src="/Hero.png" alt="Illustration Bar" width={2748} height={1081} layout="responsive"></Image>
+  </div>*/}
+      
+      
+      
       <section className="mt-10 mx-auto w-full md:h-48 bg-gray-800">
            <div className='grid grid-cols-1 md:flex flex-column md:flex justify-center'>
     
