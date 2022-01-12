@@ -15,6 +15,8 @@ module.exports = {
         12: '3rem',
         13: '3.25rem',
         14: '3.5rem',
+        15: '3.75rem',
+        16: '4.0',
       },
       fontFamily: {
         sans: ['Architects Daughter'],

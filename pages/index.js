@@ -64,9 +64,9 @@ export default function Home() {
               </div>
 
 
-              <div class=" shadow-3xl shadow-gray-400 bg-red-800 rounded-lg border md:shadow-lg md:shadow-gray-500 md:bg-gray-700 md:flex-row md:max-w-5xl md:mr-10 lg:max-w-6xl dark:border-gray-700">
-                    <div className='w-60 mt-2 p-6 float-left'>
-                        <Image src="/portrait-mick1.png" class=" px-2 float-right object-cover w-11/12 h-96 rounded-t-lg md:h-auto md:w-24 md:rounded-none md:rounded-l-lg" width={1200} height={1400} layoutalt="responsible"></Image>
+              <div class=" shadow-3xl shadow-gray-400 bg-red-800 rounded-lg border md:shadow-lg md:shadow-gray-500 md:bg-gray-700 md:flex-row md:max-w-5xl md:mr-10 lg:bg-red-800 lg:max-w-6xl dark:border-gray-700">
+                    <div className='w-60 mt-2 p-6 md:w-72 '>
+                        <Image src="/portrait-mick1.png" className=" w-11/12 h-96 rounded-lg md:rounded-none md:rounded-lg" width={1200} height={1400} layoutalt="responsible"></Image>
                     </div>
 
                     <div class="flex flex-col justify-between p-5                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        leading-normal">
@@ -82,17 +82,17 @@ export default function Home() {
       <div className='right-4 transform -translate-y-20 absolute md:right-16 z-10 w-4/12 float-right md:transform md:-translate-y-' >
         <Image className='absolute' src="/Astraballons.png" alt="portrait" layout="responsive" height={473} width={473} />
       </div>
-      <Heading1 className='md:mt-36'>Die Kneipe</Heading1>
+      <Heading1 className='md:absolute md:mt-96 lg:relative lg:mt-36'>Die Kneipe</Heading1>
       <div className='w-2/12 left-32 transform -translate-y-60 absolute md:left-80 z-20 md:transform md:-translate-y-0' >
         <Image src="/rettungsring.png" alt="illustration" layout="responsive" height={473} width={473} />
       </div>
-      <div className=' transform -translate-y-60 absolute w-4/12 z-4 md:transform md:-translate-y-36' >
+      <div className=' transform -translate-y-60 absolute w-4/12 z-4 md:transform md:trnslate-y-24 lg:transform lg:-translate-y-36' >
         <Image src="/lighthousebw.svg" alt="illustration" layout="responsive" height={473} width={473} />
       </div>
 
-      <section className='mt-96 mx=auto w-11/12'>
+      <section className='mt-96 mx=auto w-11/12 md:mt-96'>
         <ThemeProvider theme={theme}>
-          <div className="mx-auto grid grid-cols-1 gap-0 justify-center aligne-center ml-32 mt-24 md:grid md:grid-cols-3 justify-center items-center gap-24" >
+          <div className="mx-auto grid grid-cols-1 gap-0 justify-center aligne-center ml-32 mt-24 lg:grid lg:grid-cols-3 lg:justify-center lg:items-center lg:gap-3" >
 
             <Card
               mb={5}

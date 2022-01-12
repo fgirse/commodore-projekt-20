@@ -13,7 +13,7 @@ const LayoutWrapper = ({ children }) => {
   return (
     <SectionContainer>
       <div className="md:w-screen mx-auto md:flex md:flex-col md:justify-between minh-screen bg-gray-800">
-        <header className="md:grid md:grid-cols-4 md:grid-rows-2 md:justify-end md:items-center lg:flex lg:items-center lg:justify-end lg:py-8">
+        <header className="md:grid md:overflow-hidden md:grid-cols-2 md:grid-rows-4 mdgap-10 justify-evvenly md:items-center lg:flex lg:items-center lg:justify-end lg:py-8">
           <div>
             <Link href="/" aria-label="Tailwind CSS Blog">
               <div className="flex items-center justify-between">
@@ -40,7 +40,7 @@ const LayoutWrapper = ({ children }) => {
                 <Link
                   key={link.title}
                   href={link.href}
-                  className="text-xs p-1 font-bold font-sans text-gray-200 hover:text-yellow-400 hover:border-b hover: border-yellow-400 sm:p-4  lg:text-1xl xl:text-2xl dark:text-gray-100"
+                  className="text-xs p-1 font-bold font-sans text-gray-200 hover:text-yellow-400 hover:border-b hover: border-yellow-400 sm:p-4  md:text-xl md:leading-16 md:hover:bg-indigo-900 md: md:border md:mr-5 md:bordr-red-500 lg:border-none lg:text-2xl lg:text-1xl xl:text-2xl dark:text-gray-100"
                 >
                   {link.title}
                 </Link>

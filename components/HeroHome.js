@@ -102,7 +102,7 @@ const StyledHeroHome = styled.div`
  margin-left: auto;
  margin-right: auto;
  background-color: #102242;
- background-image: url('../public/Hero.png');
+ background-image: url('/Hero.png');
  background-repeat: no-repeat;
  background-position: 0vw 0vh;
  background-size: 100vw 66vh;
