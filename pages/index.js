@@ -45,18 +45,18 @@ export default function Home() {
   return (
     <>
 
- <container className="w-screen bg-red-500">
- <section className="mx-auto w-12/12 h-screen bg-100% border-t border-yellow-600 bg-accent-dark bg-no-repeat bg-hero">
+ <container className="w-max-5xl">
+ <section className="bg-logo mx-auto w-12/12 h-screen bg-100% border-t-8 border-yellow-400 border-b-8 border-yellow-500 bg-accent-dark bg-no-repeat md:bg-hero">
                  
                  </section>
  </container>
 
 {/*======================================================================= SDCTION A ===========================================================*/}
-<section className='-mt-48 mx-auto w-11/12 h-60 bord border-red-'>
+<section className='-mt-80 md:-mt-60 h-36 md: mx-auto w-11/12 bord border-red-500'>
 
 <div className="flex flex-wrap -mx-4 -mb-4 md:mb-0">
   {/*==================================================================================================================================*/}
-  <div className="mt-12 w-full md:w-3/12 px-4 mb-4 md:mb-0">
+  <div className=" w-full md:w-3/12 px-4 mb-4 md:mb-0">
   
                 <p className="text-4xl text-center md:p-3 md:text-5xl font-bold uppercase text-yellow-500">öffnungszeiten</p>
                 <p className="text-center mt-2 text-1xl md:text-2xl  text-gray-300">Montag bis Donnerstag: 18 bis 24 Uhr</p>
@@ -71,9 +71,9 @@ export default function Home() {
 {/*==================================================================================================================================*/}
 
 
-  <div className="w-full md:w-9/12 px-20 mb-4 md:mb-0">
-              <div  className="h-full flex flex-col items-center lg:bg-red-900 rounded-lg border shadow-md md:flex-row md:max-w-7xl dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-                            <img className=" -mt-16 px-2 object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="portrait-mick1.png" alt="PortraitMick"/>
+  <div classNamemt="mt-w-full md:w-9/12 px-20 mb-4 md:mb-0">
+              <div  className="bg-gray-800 h-full flex flex-col items-center rounded-lg border shadow-md md:flex-row md:max-w-7xl lg:bg-red-800 xl:bg-red-900 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                            <img className=" md:-mt-16 px-2 object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="portrait-mick1.png" alt="PortraitMick"/>
                   <div className=" flex flex-col justify-between p-4 leading-normal">
                             <h5 className="mb-2 text-4xl font-bold tracking-tight text-yellow-600 dark:text-white">"Moin - Moin"</h5>
                             <p className="z-30 text-xl font-normal text-gray-100 dark:text-gray-400">In Hommage an eine typische Kiez-Kneipe auf St.Pauli, haben wir im Herzen von Freiburg ein Lokal eröffnet, welches es so südlich der Elbe wohl kein zweites Mal gibt. Ausgebaut im Stile eines Schiffrumpfes, ist der im Herzen der Altstadt gelegene Rettungsanker-Freiburg idealer Treffpunkt um nach Feierabend nette und interessante Menschen kennenzulernen. Wir sind stolz auf unser buntes, internationales Publikum. Unser Rettungsanker ist auch ideale Location zur Durchführung Ihres privaten oder geschäftlichen Events. Sprechen Sie uns an oder kontaktieren Sie uns vor Ort oder schreiben Sie uns eine email. Wir freuen uns Sie im Rettungsanker begrüsssen zu dürfen <br /><br />Michael Schreck und das Team des Rettungsanker.</p>
@@ -93,7 +93,7 @@ export default function Home() {
  
  
  
-    <div className='w-11/12 absolute top-0 left-24'>
+    <div className='hidden md:block md:w-11/12 md:absolute md:top-0 md:left-24'>
     <Heading3 className='z-40' background-color="red">Dein Treffpunkt<br/>in Freiburg !!!</Heading3>
     </div>
 

@@ -10,7 +10,8 @@ module.exports = {
     
     extend: {
       backgroundImage: {
-        'hero': "url('/Hero.png')"
+        'hero': "url('/Hero.png')",
+        "logo": "url('/Logo_neu.png')"
       },
 
       backgroundSize: {
