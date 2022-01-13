@@ -1,4 +1,4 @@
-/* eslint-disable prettier/prettier */
+/* esl/* eslint-disable prettier/prettier */
 import siteMetadata from '@/data/siteMetadata'
 import headerNavLinks from '@/data/headerNavLinks'
 import Link from './Link'

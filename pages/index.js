@@ -1,14 +1,14 @@
 /* eslint-disable prettier/prettier */
 import { getAllFilesFrontMatter } from '@/lib/mdx';
+import StyledButton from '@/components/Buttons/Button';
 import Flensburger from '../components/icons/svg/SVGFlensburger';
 import Ganter from '../components/icons/svg/SVGGanter';
 import Astra from '../components/icons/svg/SVGAstra';
-import StyledHeroHome from "../components/HeroHome";
 import { Heading3 } from '../components/Headings/Heading3.styles';
 import { Heading0 } from '../components/Headings/Heading0.styles';
 import { Heading1 } from '@/components/Headings/Heading1.styles';
 import Image from 'next/image';
-import sketchy from "theme-ui-sketchy-preset";
+import sketchy from "theme-ui-sketchy-preset"; 
 import {
   jsx,
   Flex,
@@ -43,55 +43,73 @@ const theme = {
 export default function Home() {
 
   return (
-    <div className="relative">
+    <>
+
+ <container className="w-screen bg-red-500">
+ <section className="mx-auto w-12/12 h-screen bg-100% border-t border-yellow-600 bg-accent-dark bg-no-repeat bg-hero">
+                 
+                 </section>
+ </container>
+
+{/*======================================================================= SDCTION A ===========================================================*/}
+<section className='-mt-48 mx-auto w-11/12 h-60 bord border-red-'>
+
+<div className="flex flex-wrap -mx-4 -mb-4 md:mb-0">
+  {/*==================================================================================================================================*/}
+  <div className="mt-12 w-full md:w-3/12 px-4 mb-4 md:mb-0">
+  
+                <p className="text-4xl text-center md:p-3 md:text-5xl font-bold uppercase text-yellow-500">öffnungszeiten</p>
+                <p className="text-center mt-2 text-1xl md:text-2xl  text-gray-300">Montag bis Donnerstag: 18 bis 24 Uhr</p>
+                <p className="text-center text-xl md:text-2xl  text-gray-300">Freitag und Samstag: 15 bis 03 Uhr</p>
+                <p className="text-center text-xl md:text-2xl  text-gray-300">Sonntag: Ruhetag</p>
+  </div>
+  {/*==================================================================================================================================*/}
+  
+ 
+  
+  
+{/*==================================================================================================================================*/}
+
+
+  <div className="w-full md:w-9/12 px-20 mb-4 md:mb-0">
+              <div  className="h-full flex flex-col items-center lg:bg-red-900 rounded-lg border shadow-md md:flex-row md:max-w-7xl dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                            <img className=" -mt-16 px-2 object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="portrait-mick1.png" alt="PortraitMick"/>
+                  <div className=" flex flex-col justify-between p-4 leading-normal">
+                            <h5 className="mb-2 text-4xl font-bold tracking-tight text-yellow-600 dark:text-white">"Moin - Moin"</h5>
+                            <p className="z-30 text-xl font-normal text-gray-100 dark:text-gray-400">In Hommage an eine typische Kiez-Kneipe auf St.Pauli, haben wir im Herzen von Freiburg ein Lokal eröffnet, welches es so südlich der Elbe wohl kein zweites Mal gibt. Ausgebaut im Stile eines Schiffrumpfes, ist der im Herzen der Altstadt gelegene Rettungsanker-Freiburg idealer Treffpunkt um nach Feierabend nette und interessante Menschen kennenzulernen. Wir sind stolz auf unser buntes, internationales Publikum. Unser Rettungsanker ist auch ideale Location zur Durchführung Ihres privaten oder geschäftlichen Events. Sprechen Sie uns an oder kontaktieren Sie uns vor Ort oder schreiben Sie uns eine email. Wir freuen uns Sie im Rettungsanker begrüsssen zu dürfen <br /><br />Michael Schreck und das Team des Rettungsanker.</p>
+                  </div>
+            </div>
+
+  </div>
+
+  
+
+</div>
+
+</section>
+{/*========================== ENDE SECTION A ===================================================*/}
+ 
+ 
+ 
+ 
+ 
     <div className='w-11/12 absolute top-0 left-24'>
     <Heading3 className='z-40' background-color="red">Dein Treffpunkt<br/>in Freiburg !!!</Heading3>
     </div>
 
-    <StyledHeroHome></StyledHeroHome>
-       
-      {/*<div className='mx-auto w-full h-96'>
-      <Image src="/Hero.png" alt="Illustration Bar" width={2748} height={1081} layout="responsive"></Image>
-  </div>*/}
-      
-      
-      
-      <section className="mt-10 mx-auto w-full md:h-48 bg-gray-800">
-           <div className='grid grid-cols-1 md:flex flex-column md:flex justify-center'>
-    
-           
-              <div className="flex-column items-center justify-center text-center md:px-10 md:h-full md:px-8 z-10 md:w-1/3 px-4 mb-4 md:mb-0">
-                <p className="text-4xl text-center md:p-3 md:text-2xl font-bold uppercase text-yellow-500">öffnungszeiten</p>
-                <p className="text-center mt-2 text-1xl md:text-2xl  text-gray-300">Montag bis Donnerstag: 18 bis 24 Uhr</p>
-                <p className="text-center text-xl md:text-2xl  text-gray-300">Freitag und Samstag: 15 bis 03 Uhr</p>
-                <p className="text-center text-xl md:text-2xl  text-gray-300">Sonntag: Ruhetag</p>
-              </div>
-
-
-              <div class=" shadow-3xl shadow-gray-400 bg-red-800 rounded-lg border md:shadow-lg md:shadow-gray-500 md:bg-gray-700 md:flex-row md:max-w-5xl md:mr-10 lg:bg-red-800 lg:max-w-6xl dark:border-gray-700">
-                    <div className='w-60 mt-2 p-6 md:w-72 '>
-                        <Image src="/portrait-mick1.png" className=" w-11/12 h-96 rounded-lg md:rounded-none md:rounded-lg" width={1200} height={1400} layoutalt="responsible"></Image>
-                    </div>
-
-                    <div class="flex flex-col justify-between p-5                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        leading-normal">
-                    <h5 class="mb-2 text-3xl font-bold tracking-tight text-yellow-400 dark:text-white">"Moin - Moin"</h5>
-                    <p class="mb-3 z-50 font-normal text-gray-100 dark:text-gray-400">In Hommage an eine typische Kiez-Kneipe auf St.Pauli, haben wir im Herzen von Freiburg ein Lokal eröffnet, welches es so südlich der Elbe wohl kein zweites Mal gibt. Ausgebaut im Stile eines Schiffrumpfes, ist der im Herzen der Altstadt gelegene Rettungsanker-Freiburg idealer Treffpunkt um nach Feierabend nette und interessante Menschen kennenzulernen. Wir sind stolz auf unser buntes, internationales Publikum. Unser Rettungsanker ist auch ideale Location zur Durchführung Ihres privaten oder geschäftlichen Events. Sprechen Sie uns an oder kontaktieren Sie uns vor Ort oder schreiben Sie uns eine email. Wir freuen uns Sie im Rettungsanker begrüsssen zu dürfen <br /><br />Michael Schreck und das Team des Rettungsanker.</p>
-                    </div>
-                </div>
-</div>
-
-
-</section>
-
-      <div className='right-4 transform -translate-y-20 absolute md:right-16 z-10 w-4/12 float-right md:transform md:-translate-y-' >
+      <div className='right-3 transform -translate-y-20 absolute md:right-16 z-10 w-4/12 float-right md:transform md:-translate-y-' >
         <Image className='absolute' src="/Astraballons.png" alt="portrait" layout="responsive" height={473} width={473} />
       </div>
-      <Heading1 className='md:absolute md:mt-96 lg:relative lg:mt-36'>Die Kneipe</Heading1>
+      <Heading1 className='md: lg:mt-36'>Die Kneipe</Heading1>
       <div className='w-2/12 left-32 transform -translate-y-60 absolute md:left-80 z-20 md:transform md:-translate-y-0' >
         <Image src="/rettungsring.png" alt="illustration" layout="responsive" height={473} width={473} />
       </div>
-      <div className=' transform -translate-y-60 absolute w-4/12 z-4 md:transform md:trnslate-y-24 lg:transform lg:-translate-y-36' >
+     
+      <div className=' transform -translate-y-60 absolute w-4/12  md:transform md:-trnslate-y-48 lg:transform lg:-translate-y-96' >
         <Image src="/lighthousebw.svg" alt="illustration" layout="responsive" height={473} width={473} />
+      </div>
+      <div className=' transform -translate-y-60 absolute w-4/12  md:transform md:-trnslate-y-48 lg:transform lg:-translate-y-96' >
+        <Image src="/" alt="illustration" layout="responsive" height={473} width={473} />
       </div>
 
       <section className='mt-96 mx=auto w-11/12 md:mt-96'>
@@ -285,15 +303,16 @@ export default function Home() {
 
       </section>
       
-    </div>
+    
 
 
-
+</>
   )
    async function getStaticProps() {
     const posts = await getAllFilesFrontMatter('blog')
   
     return { props: { posts } }
+    
   }
   
 }

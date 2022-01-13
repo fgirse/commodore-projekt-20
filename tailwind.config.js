@@ -6,7 +6,21 @@ module.exports = {
   purge: ['./pages/**/*.js', './components/**/*.js', './layouts/**/*.js', './lib/**/*.js'],
   darkMode: 'class',
   theme: {
+
+    
     extend: {
+      backgroundImage: {
+        'hero': "url('/Hero.png')"
+      },
+
+      backgroundSize: {
+        'auto': 'auto',
+        'cover': 'cover',
+        'contain': 'contain',
+        '100%': '100%',
+        '16': '4rem',
+      },
+
       spacing: {
         '9/16': '56.25%',
       },
