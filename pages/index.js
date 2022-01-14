@@ -45,16 +45,16 @@ export default function Home() {
   return (
     <>
 
- <container className="w-max-5xl">
- <section className="bg-logo mx-auto w-12/12 h-screen bg-100% border-t-8 border-yellow-400 border-b-8 border-yellow-500 bg-accent-dark bg-no-repeat md:bg-hero">
+ <section className="bg-logo mx-auto w-12/12 h-[73vh] border-t-8 border-yellow-400 border-b-8 border-yellow-500 bg-accent-dark bg-no-repeat md:bg-hero md:bg-100/66">
                  
                  </section>
- </container>
+ 
 
 {/*======================================================================= SDCTION A ===========================================================*/}
-<section className='-mt-80 md:-mt-60 h-36 md: mx-auto w-11/12 bord border-red-500'>
+<section className='mt-24 h-36 md:mx-auto md:mt-12 w-11/12 '>
 
-<div className="flex flex-wrap -mx-4 -mb-4 md:mb-0">
+
+<div className="flex flex-wrap -mx-4 -mb-4 md:mb-0 md:gap-x-7">
   {/*==================================================================================================================================*/}
   <div className=" w-full md:w-3/12 px-4 mb-4 md:mb-0">
   
@@ -89,15 +89,7 @@ export default function Home() {
 </section>
 {/*========================== ENDE SECTION A ===================================================*/}
  
- 
- 
- 
- 
-    <div className='hidden md:block md:w-11/12 md:absolute md:top-0 md:left-24'>
-    <Heading3 className='z-40' background-color="red">Dein Treffpunkt<br/>in Freiburg !!!</Heading3>
-    </div>
-
-      <div className='right-3 transform -translate-y-20 absolute md:right-16 z-10 w-4/12 float-right md:transform md:-translate-y-' >
+       <div className='right-3 transform -translate-y-20 absolute md:right-16 z-10 w-4/12 float-right md:transform md:-translate-y-' >
         <Image className='absolute' src="/Astraballons.png" alt="portrait" layout="responsive" height={473} width={473} />
       </div>
       <Heading1 className='md: lg:mt-36'>Die Kneipe</Heading1>
@@ -108,11 +100,11 @@ export default function Home() {
       <div className=' transform -translate-y-60 absolute w-4/12  md:transform md:-trnslate-y-48 lg:transform lg:-translate-y-96' >
         <Image src="/lighthousebw.svg" alt="illustration" layout="responsive" height={473} width={473} />
       </div>
-      <div className=' transform -translate-y-60 absolute w-4/12  md:transform md:-trnslate-y-48 lg:transform lg:-translate-y-96' >
+      <div className=' transform -translate-y-6 absolute w-4/12  md:transform md:-trnslate-y-48 lg:transform lg:-translate-y-96' >
         <Image src="/" alt="illustration" layout="responsive" height={473} width={473} />
       </div>
 
-      <section className='mt-96 mx=auto w-11/12 md:mt-96'>
+      <section className='mt-mx=auto w-11/12 '>
         <ThemeProvider theme={theme}>
           <div className="mx-auto grid grid-cols-1 gap-0 justify-center aligne-center ml-32 mt-24 lg:grid lg:grid-cols-3 lg:justify-center lg:items-center lg:gap-3" >
 
@@ -259,7 +251,7 @@ export default function Home() {
 
       </section>
 
-      <section>
+      <section className=''>
         <div>
 
           <hr className='w-48 mt-12 mx-auto md:w-9/12'/>
@@ -286,10 +278,10 @@ export default function Home() {
               <h1 className='mt-5 mx-auto w-9/12 font-mono md:text-2xl text-yellow-400 text-center'>Steuernummer:</h1>
               <h1 className='mx-auto w-9/12 md:text-3xl text-gray-100 text-center'>1234567890</h1>
             </div>
-
+m
             <div class Name="mt-12">
               <h1 className='mt-5 mx-auto w-9/12 font-mono md:text-2xl text-yellow-400 text-center'>Gerichtsstand:</h1>
-              <h1 className='mb-10 mx-auto w-9/12 md:text-3xl text-gray-100 text-center'>Freiburg/ Breisgau</h1>
+              <h1 className='mb-1 mx-auto w-9/12 md:text-3xl text-gray-100 text-center'>Freiburg/ Breisgau</h1>
             </div>
 
           </div>

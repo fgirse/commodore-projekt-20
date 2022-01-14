@@ -14,10 +14,10 @@ const StyledHeroWohin = styled.div`
         background-color: #07214f ;
         color: #ffffff;
         text-align: center;
-        background-image: url('/lighthousebw.svg'), url('/LogoAlt.png'), url('/MapFreiburg.png');
-        background-repeat: no-repeat, no-repeat, no-repeat;
-        background-size: 25vw 70vh, 24vw 10vh, 28vw 40vh ;
-        background-position: 1vw 6vh, 20vw 6vh, 66vw 30vh;
+        background-image: url('/lighthousebw.svg'), url('/LogoAlt.png');
+        background-repeat: no-repeat, no-repeat;
+        background-size: 25vw 70vh, 25vw 7vh;
+        background-position: 1vw 6vh, 35vw 5vh;
   }
 `;
 export default StyledHeroWohin
